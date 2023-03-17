@@ -6,6 +6,7 @@
         <nav>
           <a href="/#about" class="footerBtn">About</a>
           <a href="/#projects" class="footerBtn">Projects</a>
+          <a href="/#article" class="footerBtn">Article</a>
           <a href="/#contact" class="footerBtn">Contact</a>
         </nav>
         <!-- nav - end -->

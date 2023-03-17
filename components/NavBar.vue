@@ -35,6 +35,7 @@
           class="underAnimation"
           >{{ item.name }}</a
         >
+        <NuxtLink to="/articles" class="underAnimation">Articles</NuxtLink>
       </TransitionGroup>
     </div>
     <Menu as="div" class="mobile-hamburger">

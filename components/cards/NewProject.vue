@@ -21,7 +21,7 @@
       </div>
     </div>
     <TransitionRoot
-      :show="hovered"
+      :show="hovered" 
       as="template"
       appear
       enter="transform transition duration-700"

@@ -15,7 +15,7 @@
     <div>
       <h1>
         <MyTransition>
-          <span v-if="!loading" class="flex justify-center mt-1 tracking-wide text-black">
+          <span v-if="!loading" class="flex justify-center">
             Hi there
             <span>
               <IconsHiIcon class="ml-3 p-1" />
@@ -23,18 +23,18 @@
           </span>
         </MyTransition>
         <MyTransition :delay="Number(1.1)">
-          <span v-if="!loading" class="mt-1 tracking-wide text-black">
+          <span v-if="!loading" class="mt-1 tracking-wide text-white">
             I'm Nurul Helda
           </span>
         </MyTransition>
         <MyTransition :delay="Number(1.3)">
-          <span v-if="!loading" class="mt-2 tracking-wide text-black">
+          <span v-if="!loading" class="mt-2 tracking-wide text-white">
             A Junior
           </span>
         </MyTransition>
         <MyTransition :delay="Number(1.5)">
-          <span v-if="!loading" class="py-2 tracking-wide text-black">
-            Software Egineer
+          <span v-if="!loading" class="py-2 tracking-wide text-white">
+            Software Engineer
           </span>
         </MyTransition>
       </h1>

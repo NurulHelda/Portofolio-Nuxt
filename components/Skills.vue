@@ -1,7 +1,7 @@
 <template>
   <section id="skills">
     <div>
-      <h2 class="techTitle"></h2>
+      <h2 class="techTitle">Skills</h2>
     </div>
     <ul>
       <li v-for="skill in skillSet" :key="skill" class="skillStyle">

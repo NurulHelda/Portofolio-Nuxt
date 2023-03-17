@@ -23,15 +23,23 @@
   </NuxtLayout>
 </template>
 <script setup>
+
+const skillSet = [
+  "HTML",
+  "CSS",
+  "PHP",
+  "UNITY",
+];
 const projects = [
   {
     isReverse: true,
     title: "SPK AHP",
     titleColor: "text-white",
-    filterColor: "bg-slate-900 bg-opacity-60",
+    filterColor: "bg-slate-500 mix-blend-hard-light",
     imageUrl: "/project-ss/SPK.gif",
-    description: "This is a decision support system project that aims to assist managers in making the right decisions. This project was made using PHP, CodeIgniter and MySQL as a database processor.",
-    techStack: [ 
+    description:
+      "This is a decision support system project that aims to assist managers in making the right decisions. This project was made using PHP, CodeIgniter and MySQL as a database processor.",
+     techStack: [ 
       "PHP",
       "CodeIgniter",
       "MySQL",
@@ -40,14 +48,14 @@ const projects = [
     githubLink: "https://github.com/NurulHelda/SPK-AHP",
   },
   {
-    isReverse: false,
+    isReverse: true,
     title: "Face Recognition",
     titleColor: "text-white",
-    filterColor: "bg-slate-900 bg-opacity-60",
+    filterColor: "bg-slate-500 mix-blend-hard-light",
     imageUrl: "/project-ss/muka.gif",
     description:
       "This project uses Tensorflow.js which is an open source Machine Learning. Where this project helps perform facial recognition, detection of facial expressions, and detection of gender and age estimation.",
-    techStack: [ 
+     techStack: [ 
       "JavaScript",
       "HTML",
       "TensorFlow",
