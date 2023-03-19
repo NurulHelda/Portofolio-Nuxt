@@ -35,6 +35,7 @@
           class="underAnimation"
           >{{ item.name }}</a
         >
+        <NuxtLink to="/articles" class="underAnimation">Articles</NuxtLink>   
       </TransitionGroup>
     </div>
     <Menu as="div" class="mobile-hamburger">
@@ -103,11 +104,6 @@ const navigation = [
   },
   {
     id: 3,
-    name: "Articles",
-    href: "http://localhost:3001/",
-  },
-  {
-    id: 4,
     name: "Contact",
     href: "/#contact",
   },
