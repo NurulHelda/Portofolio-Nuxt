@@ -1,6 +1,5 @@
 <template>
         <NavBar />
-
 <section class="bg-white py-6">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <button class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 text-white  font-bold py-2 px-4 rounded-md shadow-md" @click="back">Back</button>
@@ -26,9 +25,7 @@
     </div>
   </div>
   <Footer />
-
 </template>
-
 <script>
   export default {
     data() {
@@ -53,5 +50,4 @@ const router = useRouter()
 const back = () => {
   router.back()
 }
-
 </script>

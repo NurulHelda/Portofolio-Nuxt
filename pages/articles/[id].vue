@@ -12,7 +12,6 @@
         <Footer />
     </div>
 </template>
-
 <script setup>
 const route = useRoute()
 const postId = ref(route.params.id)

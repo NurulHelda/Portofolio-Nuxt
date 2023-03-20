@@ -5,8 +5,6 @@
     @mouseleave="hovered = false"
   >
     <div class="project-img-container">
-      <!-- img -->
-      <!-- previously is on hover change to gif :src="hovered ? projectDetails.gifUrl : projectDetails.imageUrl" -->
       <img
         :src="projectDetails.imageUrl"
         width="535"
