@@ -9,7 +9,7 @@
          <marquee width="50%">Articles</marquee>
         </h2>
         <p class="mt-4 text-lg text-gray-500 justify-center">
-          A place where share my thoughts and experiences on various topics.
+          A place where share thoughts and experiences on various topics.
         </p>
       </div>
     </div>
