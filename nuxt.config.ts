@@ -17,10 +17,6 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", href: "/favicon-bw.jpg" }],
       script: [
         {
-          async: "",
-          src: "https://www.googletagmanager.com/gtag/js?id=G-98SHRX2R23",
-        },
-        {
           type: "text/javascript",
           src: "js/useGtag.js",
           body: true,
