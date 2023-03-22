@@ -33,7 +33,7 @@
             <p>I’ll try my best to get back to you!</p>
           </div>
           <div>
-            <a href="mailto:#">
+            <a href="mailto:nurul.helda.tif20@gmail.com">
               <MailIcon /> Say Hello!
             </a>
           </div>
