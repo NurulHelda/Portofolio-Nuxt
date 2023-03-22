@@ -13,13 +13,6 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", href: "/favicon-bw.jpg" }],
-      script: [
-        {
-          type: "text/javascript",
-          src: "js/useGtag.js",
-          body: true,
-        },
-      ],
     },
   },
   modules: ["@nuxtjs/tailwindcss"],
