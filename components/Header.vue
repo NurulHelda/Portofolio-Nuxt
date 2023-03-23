@@ -1,16 +1,11 @@
 <template>
   <header class="headerHeight">
     <div>
-      <!-- previously set width 1600 height 1200 -->
-      <img
-        src="/wide-laptop-gradient-bg.jpg"
-        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 80vw, (max-width: 1439px) 100vw"
-        srcset="
+      <img src="/wide-laptop-gradient-bg.jpg"
+        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 80vw, (max-width: 1439px) 100vw" srcset="
           /wide-laptop-gradient-bg-min.jpg  768w,
           /wide-laptop-gradient-bg.jpg     1024w
-        "
-        alt="laptop with black background"
-      />
+        " alt="laptop with black background" />
     </div>
     <div>
       <h1>
@@ -42,14 +37,17 @@
   </header>
 </template>
 <script setup>
-import { ref, onMounted } from "vue";
-let loading = ref(true);
-onMounted(() => {
-  loading.value = false;
-});
+  import {
+    ref,
+    onMounted
+  } from "vue";
+  let loading = ref(true);
+  onMounted(() => {
+    loading.value = false;
+  });
 </script>
 <style lang="scss" scoped>
-.headerHeight {
-  height: calc(100vh - 30px);
-}
+  .headerHeight {
+    height: calc(100vh - 30px);
+  }
 </style>
