@@ -11,7 +11,6 @@
                 <p class="mb-7 text-justify">{{ post.body }}</p>
             </div>
         </div>
-        <Footer />
     </div>
 </template>
 <style>
