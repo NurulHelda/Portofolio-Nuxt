@@ -12,7 +12,7 @@ export default defineNuxtConfig({
           content: "width=device-width, initial-scale=1, viewport-fit=cover",
         },
       ],
-      link: [{ rel: "icon", href: "/favicon-bw.jpg" }],
+      link: [{ rel: "icon", href: "/favicon-bw.png" }],
     },
   },
   modules: ["@nuxtjs/tailwindcss"],
