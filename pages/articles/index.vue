@@ -25,8 +25,7 @@
           class="h-48 w-full object-cover object-center transition duration-500 ease-in-out transform hover:scale-110"
           :src="`https://source.unsplash.com/random/400x300/?${post.tags[1]}`" alt="Random image">
         <div class="p-4">
-          <h2 class="font-bold text-lg mb-2">{{ post.title }}</h2>
-          <p class="text-gray-700 text-base">{{ post.body }}</p>
+          <h2 class="font-bold text-lg mb-2" style="font-family: 'Playfair Display', serif; font-style: italic; color: #444444; text-shadow: 2px 2px #FFFFFF;">{{ post.title }}</h2>
         </div>
       </NuxtLink>
     </div>
@@ -51,6 +50,9 @@
   }
 </script>
 <style>
+#hidden-title {
+  display: none;
+}
   .animate-typewriter-slow {
     overflow: hidden;
     display: inline-block;

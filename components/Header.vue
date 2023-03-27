@@ -1,10 +1,10 @@
 <template>
   <header class="headerHeight">
     <div>
-      <img src="/wide-laptop-gradient-bg.jpg"
+      <img src="/wide-laptop-gradient-bg.webp"
         sizes="(max-width: 768px) 50vw, (max-width: 1024px) 80vw, (max-width: 1439px) 100vw" srcset="
-          /wide-laptop-gradient-bg-min.jpg  768w,
-          /wide-laptop-gradient-bg.jpg     1024w
+          /wide-laptop-gradient-bg-min.webp  768w,
+          /wide-laptop-gradient-bg.webp     1024w
         " alt="laptop with black background" />
     </div>
     <div>

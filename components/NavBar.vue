@@ -78,8 +78,8 @@
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 import { MenuIcon } from "@heroicons/vue/outline";
 import { gsap } from "gsap";
-import blackWhiteFavicon from "/favicon-bw.jpg";
-import whiteBlackFavicon from "/favicon-wb.jpg";
+import blackWhiteFavicon from "/favicon-bw.png";
+import whiteBlackFavicon from "/favicon-wb.png";
 
 let loading = ref(true);
 const route = useRoute();
