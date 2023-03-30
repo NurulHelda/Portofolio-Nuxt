@@ -75,16 +75,19 @@
       transform: translateY(0);
     }
   }
+
   @keyframes slide-in {
     from {
       opacity: 0;
       transform: translateX(-50px);
     }
+
     to {
       opacity: 1;
       transform: translateX(0);
     }
   }
+
   .hover\:scale-110:hover {
     transform: scale(1.1);
   }
