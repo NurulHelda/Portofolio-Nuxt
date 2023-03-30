@@ -10,8 +10,16 @@
         </svg>Back
       </button>
       <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mt-6 animate-typewriter-slow">Articles</h2>
-        <p class="mt-4 text-lg text-gray-500 justify-center">
+        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl mt-6 animate-typewriter-slow" style="animation-name: title-anim;
+           animation-duration: 1s;
+           animation-fill-mode: forwards;
+           opacity: 0;">
+          Articles
+        </h2>
+        <p class="mt-4 text-lg text-gray-500 justify-center" style="animation-name: slide-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;">
           A place where share thoughts and experiences on various topics.
         </p>
       </div>
@@ -25,9 +33,13 @@
           class="h-48 w-full object-cover object-center transition duration-500 ease-in-out transform hover:scale-110"
           :src="`https://source.unsplash.com/random/400x300/?${post.tags[1]}`" alt="Random image">
         <div class="p-4">
-          <h2 class="font-bold text-lg mb-2"
-            style="font-family: 'Playfair Display', serif; font-style: italic; color: #444444; text-shadow: 2px 2px #FFFFFF;">
-            {{ post.title }}</h2>
+          <h2 class="font-bold text-lg mb-2" style="font-family: 'Playfair Display', serif; font-style: italic; color: #444444; text-shadow: 2px 2px #FFFFFF;
+            animation-name: title-anim;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            opacity: 0;">
+            {{ post.title }}
+          </h2>
         </div>
       </NuxtLink>
     </div>
@@ -52,42 +64,27 @@
   }
 </script>
 <style>
-  #hidden-title {
-    display: none;
-  }
-
-  .animate-typewriter-slow {
-    overflow: hidden;
-    display: inline-block;
-    animation: typing-slow 5s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    font-size: inherit;
-    border-right: .1px solid transparent;
-    width: 10ch;
-  }
-
-  @keyframes typing-slow {
+  @keyframes title-anim {
     from {
-      width: 0
+      opacity: 0;
+      transform: translateY(-50px);
     }
 
     to {
-      width: 100%
+      opacity: 1;
+      transform: translateY(0);
     }
   }
-
-  @keyframes blink {
-
-    from,
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
     to {
-      border-color: transparent
-    }
-
-    50% {
-      border-color: #ffffff
+      opacity: 1;
+      transform: translateX(0);
     }
   }
-
   .hover\:scale-110:hover {
     transform: scale(1.1);
   }
