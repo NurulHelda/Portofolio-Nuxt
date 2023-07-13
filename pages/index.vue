@@ -20,7 +20,12 @@
     "HTML",
     "CSS",
     "PHP",
-    "UNITY",
+    "Nuxt",
+    "Vue",
+    "MySQL",
+    "Microsoft Office",
+    "Technical Documentation",
+    "User Documentation",
   ];
   const projects = [{
       isReverse: true,
