@@ -24,12 +24,12 @@
         </MyTransition>
         <MyTransition :delay="Number(1.3)">
           <span v-if="!loading" class="mt-2 tracking-wide text-white">
-            A Junior
+            <!-- A Junior -->
           </span>
         </MyTransition>
         <MyTransition :delay="Number(1.5)">
           <span v-if="!loading" class="py-2 tracking-wide text-white">
-            Software Engineer
+            <!-- Software Engineer -->
           </span>
         </MyTransition>
       </h1>
