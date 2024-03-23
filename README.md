@@ -1,5 +1,5 @@
 # Portfolio Website
-Portfolio website built with Nuxt3, tailwindCSS
+Portfolio website built with Nuxt3, Tailwind CSS
 
 ## Build Setup
 ```bash
